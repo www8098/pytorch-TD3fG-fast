@@ -1,0 +1,236 @@
+absl-py==0.14.0
+alabaster==0.7.12
+argcomplete @ file:///tmp/build/80754af9/argcomplete_1618920853202/work
+argon2-cffi @ file:///C:/ci/argon2-cffi_1613038019788/work
+astroid @ file:///C:/ci/astroid_1613500971479/work
+astunparse==1.6.3
+async-generator==1.10
+atari-py==0.2.6
+atomicwrites==1.4.0
+attrs @ file:///tmp/build/80754af9/attrs_1620827162558/work
+Babel==2.9.1
+backcall @ file:///home/ktietz/src/ci/backcall_1611930011877/work
+beautifulsoup4 @ file:///C:/ci/beautifulsoup4_1605284187775/work
+bleach @ file:///tmp/build/80754af9/bleach_1628110601003/work
+bounded-pool-executor==0.0.3
+Box2D @ file:///C:/Users/ASUS/Downloads/Box2D-2.3.10-cp37-cp37m-win_amd64.whl
+box2d-py==2.3.8
+brotlipy==0.7.0
+cached-property==1.5.2
+cachetools==4.2.3
+certifi==2021.5.30
+cffi @ file:///C:/ci/cffi_1625831764494/work
+charset-normalizer @ file:///tmp/build/80754af9/charset-normalizer_1630003229654/work
+clang==5.0
+click==8.0.3
+cloudpickle==1.2.2
+colorama @ file:///tmp/build/80754af9/colorama_1607707115595/work
+configparser==5.0.1
+cryptography @ file:///C:/ci/cryptography_1616769432139/work
+cvzone==1.4.1
+cycler==0.10.0
+Cython==0.29.24
+# Editable install with no version control (d4rl==1.1)
+-e c:\users\asus\downloads\d4rl-master
+debugpy @ file:///C:/ci/debugpy_1629222823515/work
+decorator @ file:///tmp/build/80754af9/decorator_1621259047763/work
+defusedxml @ file:///tmp/build/80754af9/defusedxml_1615228127516/work
+dm-control==0.0.364896371
+dm-env==1.4
+dm-tree==0.1.6
+docker-pycreds==0.4.0
+docutils==0.16
+entrypoints==0.3
+et-xmlfile==1.1.0
+fasteners==0.16.3
+filelock==3.0.12
+fire==0.4.0
+flatbuffers==1.12
+future==0.18.2
+gast==0.4.0
+gitdb==4.0.5
+GitPython==3.1.12
+glfw==2.1.0
+google==3.0.0
+google-auth==2.2.1
+google-auth-oauthlib==0.4.6
+google-pasta==0.2.0
+grpcio==1.40.0
+gym==0.13.0
+h5py==3.1.0
+huggingface-hub==0.0.12
+idna @ file:///tmp/build/80754af9/idna_1622654382723/work
+ImageHash==4.2.0
+imageio==2.9.0
+imageio-ffmpeg==0.4.2
+imagesize==1.2.0
+importlib-metadata @ file:///C:/ci/importlib-metadata_1631916842152/work
+iniconfig==1.1.1
+ipdb==0.13.4
+ipykernel==5.5.5
+ipython==5.10.0
+ipython-genutils @ file:///tmp/build/80754af9/ipython_genutils_1606773439826/work
+ipywidgets==7.6.5
+isort @ file:///tmp/build/80754af9/isort_1628603791788/work
+jdcal @ file:///Users/ktietz/demo/mc3/conda-bld/jdcal_1630584345063/work
+jedi @ file:///C:/ci/jedi_1611315820849/work
+jieba==0.42.1
+Jinja2 @ file:///tmp/build/80754af9/jinja2_1624781299557/work
+joblib==1.0.1
+json5 @ file:///tmp/build/80754af9/json5_1624432770122/work
+jsonpatch==1.32
+jsonpointer==2.1
+jsonschema @ file:///Users/ktietz/demo/mc3/conda-bld/jsonschema_1630511932244/work
+jupyter==1.0.0
+jupyter-client @ file:///tmp/build/80754af9/jupyter_client_1630690655192/work
+jupyter-console==5.2.0
+jupyter-core @ file:///C:/ci/jupyter_core_1612213516947/work
+jupyterlab==2.2.6
+jupyterlab-pygments @ file:///tmp/build/80754af9/jupyterlab_pygments_1601490720602/work
+jupyterlab-server @ file:///tmp/build/80754af9/jupyterlab_server_1594164409481/work
+jupyterlab-widgets==1.0.2
+keras==2.6.0
+Keras-Preprocessing==1.1.2
+kiwisolver==1.3.2
+labmaze==1.0.4
+lazy-object-proxy @ file:///C:/ci/lazy-object-proxy_1616529290879/work
+lockfile==0.12.2
+lxml==4.6.3
+Mako==1.1.5
+Markdown==3.3.4
+MarkupSafe @ file:///C:/ci/markupsafe_1621528383308/work
+matplotlib==3.4.3
+matplotlib-inline @ file:///tmp/build/80754af9/matplotlib-inline_1628242447089/work
+mccabe==0.6.1
+metaworld @ git+https://github.com/rlworkgroup/metaworld.git@a0009ed9a208ff9864a5c1368c04c273bb20dd06
+mistune @ file:///C:/ci/mistune_1594373272338/work
+-e git+https://github.com/vikashplus/mj_envs.git@0539d5c92a900d1cc732c0825aef1d2f2caa5aa2#egg=mj_envs
+mjrl @ git+git://github.com/aravindr93/mjrl@3871d93763d3b49c4741e6daeaebbc605fe140dc
+moviepy==1.0.3
+mpi4py==3.0.3
+# Editable install with no version control (mujoco-py==2.0.2.8)
+-e c:\python\anoconda\envs\tensorflow20\lib\site-packages
+nbclient @ file:///tmp/build/80754af9/nbclient_1614364831625/work
+nbconvert @ file:///C:/ci/nbconvert_1624479160228/work
+nbformat @ file:///tmp/build/80754af9/nbformat_1617383369282/work
+nest-asyncio @ file:///tmp/build/80754af9/nest-asyncio_1613680548246/work
+networkx==2.6.3
+notebook @ file:///C:/ci/notebook_1629205907554/work
+numpy @ file:///D:/bld/numpy_1629092219550/work
+numpydoc==1.1.0
+oauthlib==3.1.1
+olefile==0.46
+opencv-python==4.5.1.48
+openpyxl @ file:///tmp/build/80754af9/openpyxl_1598113097404/work
+opt-einsum==3.3.0
+packaging @ file:///tmp/build/80754af9/packaging_1625611678980/work
+pandas==1.2.4
+pandocfilters @ file:///C:/ci/pandocfilters_1605102427207/work
+parso @ file:///tmp/build/80754af9/parso_1617223946239/work
+pathtools==0.1.2
+pickleshare @ file:///tmp/build/80754af9/pickleshare_1606932040724/work
+Pillow @ file:///C:/ci/pillow_1594298234712/work
+pluggy==0.13.1
+portalocker @ file:///C:/ci/portalocker_1617135682233/work
+pqdm==0.1.0
+proglog==0.1.9
+prometheus-client @ file:///tmp/build/80754af9/prometheus_client_1623189609245/work
+prompt-toolkit==1.0.18
+protobuf==3.18.0
+py==1.10.0
+pyasn1==0.4.8
+pyasn1-modules==0.2.8
+pybullet==3.1.7
+pycparser @ file:///tmp/build/80754af9/pycparser_1594388511720/work
+pydot @ file:///C:/ci/pydot_1615395426886/work
+pygame==2.0.1
+pyglet==1.5.0
+Pygments==2.5.2
+pylint @ file:///C:/ci/pylint_1598605958085/work
+PyOpenGL==3.1.5
+pyOpenSSL @ file:///tmp/build/80754af9/pyopenssl_1608057966937/work
+pyparsing @ file:///home/linux1/recipes/ci/pyparsing_1610983426697/work
+pyrsistent @ file:///C:/ci/pyrsistent_1600123688363/work
+PySocks @ file:///C:/ci/pysocks_1594394709107/work
+pytest==6.2.4
+pytest-instafail==0.3.0
+python-dateutil @ file:///tmp/build/80754af9/python-dateutil_1626374649649/work
+python-utils==2.5.6
+pytz==2021.1
+PyWavelets==1.1.1
+pywin32==228
+pywinpty==0.5.7
+PyYAML==5.3.1
+pyzmq @ file:///C:/ci/pyzmq_1628276101517/work
+qtconsole==5.1.1
+QtPy==1.11.2
+regex==2021.7.1
+requests @ file:///tmp/build/80754af9/requests_1629994808627/work
+requests-oauthlib==1.3.0
+rope @ file:///tmp/build/80754af9/rope_1602264064449/work
+rsa==4.7.2
+sacremoses==0.0.45
+scikit-image==0.18.3
+scikit-learn==1.0
+scipy==1.7.1
+seaborn==0.11.2
+Send2Trash @ file:///tmp/build/80754af9/send2trash_1632406701022/work
+sentry-sdk==0.19.5
+shortuuid==1.0.1
+simplegeneric==0.8.1
+six @ file:///tmp/build/80754af9/six_1623709665295/work
+sklearn==0.0
+smmap==3.0.4
+snowballstemmer==2.1.0
+soupsieve @ file:///tmp/build/80754af9/soupsieve_1616183228191/work
+Sphinx==4.0.2
+sphinx-rtd-theme==0.5.2
+sphinxcontrib-applehelp==1.0.2
+sphinxcontrib-devhelp==1.0.2
+sphinxcontrib-htmlhelp==2.0.0
+sphinxcontrib-jsmath==1.0.1
+sphinxcontrib-qthelp==1.0.3
+sphinxcontrib-serializinghtml==1.1.5
+stable-baselines==2.10.2
+stable-baselines3==1.2.0
+subprocess32==3.5.4
+tensorboard==2.6.0
+tensorboard-data-server==0.6.1
+tensorboardX==2.4
+tensorflow==2.6.0
+tensorflow-estimator==2.6.0
+termcolor==1.1.0
+terminado==0.9.4
+testpath @ file:///tmp/build/80754af9/testpath_1624638946665/work
+tf-slim==1.1.0
+threadpoolctl==2.2.0
+tifffile==2021.8.30
+tokenizers==0.10.3
+toml @ file:///tmp/build/80754af9/toml_1616166611790/work
+torch==1.9.1
+torch-tb-profiler==0.1.0
+torchaudio==0.9.1
+torchfile==0.1.0
+torchnet @ git+https://github.com/pytorch/tnt.git@b6b01bd4a4380e4fc32f75d0b238dbd631d6557e
+torchvision==0.10.1
+tornado @ file:///C:/ci/tornado_1606935947090/work
+tqdm==4.62.3
+traitlets @ file:///home/ktietz/src/ci/traitlets_1611929699868/work
+transformers==4.8.2
+typed-ast @ file:///C:/ci/typed-ast_1624953789477/work
+typing-extensions @ file:///tmp/build/80754af9/typing_extensions_1631814937681/work
+urllib3 @ file:///tmp/build/80754af9/urllib3_1625084269274/work
+visdom==0.1.8.9
+wandb==0.10.14
+watchdog==0.10.4
+wcwidth @ file:///Users/ktietz/demo/mc3/conda-bld/wcwidth_1629357192024/work
+webencodings==0.5.1
+websocket-client==1.2.1
+Werkzeug==2.0.1
+widgetsnbextension==3.5.1
+win-inet-pton @ file:///C:/ci/win_inet_pton_1605306165655/work
+win-unicode-console==0.5
+wincertstore==0.2
+wrapt==1.12.1
+xlrd==1.2.0
+zipp @ file:///tmp/build/80754af9/zipp_1625570634446/work
