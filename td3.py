@@ -128,31 +128,32 @@ class TD3(object):
             policy_loss = -self.critic1([to_tensor(state_batch), actor_action_batch])
             policy_loss = policy_loss.mean()
 
-            if self.noise:
-                supervised_loss = criterion(actor_action_batch, to_tensor(refaction_batch))
-                supervised_loss = supervised_loss.mean()
-
-                # hand tasks
-                policy_loss = policy_loss*min((1-self.noise_weight), 1) + 3 * supervised_loss*max(self.noise_weight, 0)
-                # policy_loss = policy_loss * min((1 - self.noise_weight), 1) + 15 * supervised_loss * max(self.noise_weight, 0)
-                # policy_loss = policy_loss*min((1-self.noise_weight) + 0.2, 1) + 2 * supervised_loss*max(self.noise_weight, 0)
+            # if self.noise:
+                # supervised_loss = criterion(actor_action_batch, to_tensor(refaction_batch))
+                # supervised_loss = supervised_loss.mean()
+                #
+                # # hand tasks
+                # policy_loss = policy_loss*min((1-self.noise_weight), 1) + 3 * supervised_loss*max(self.noise_weight, 0)
+                # # policy_loss = policy_loss * min((1 - self.noise_weight), 1) + 15 * supervised_loss * max(self.noise_weight, 0)
+                # # policy_loss = policy_loss*min((1-self.noise_weight) + 0.2, 1) + 2 * supervised_loss*max(self.noise_weight, 0)
 
             # use Q filter
-            # if self.noise:
-            #     if self.noise_weight > 0.5:
-            #         supervised_loss = criterion(actor_action_batch, to_tensor(refaction_batch))
-            #         supervised_loss = supervised_loss.mean()
-            #         policy_loss = policy_loss * min((1 - self.noise_weight), 1) + 3 * supervised_loss * max(
-            #             self.noise_weight, 0)
-            #     else:
-            #         with torch.no_grad():
-            #             refer_Q = self.critic1([to_tensor(state_batch), to_tensor(refaction_batch)])
-            #             refer_Q = refer_Q.mean()
-            #         if -policy_loss < refer_Q:
-            #             supervised_loss = criterion(actor_action_batch, to_tensor(refaction_batch))
-            #             supervised_loss = supervised_loss.mean()
-            #             policy_loss = policy_loss * min((1 - self.noise_weight), 1) + 3 * supervised_loss * max(
-            #                 self.noise_weight, 0)
+            if self.noise:
+                if self.noise_weight > 0.5:
+                    supervised_loss = criterion(actor_action_batch, to_tensor(refaction_batch))
+                    supervised_loss = supervised_loss.mean()
+                    policy_loss = policy_loss * min((1 - self.noise_weight), 1) + 3 * supervised_loss * max(
+                        self.noise_weight, 0)
+                else:
+                    with torch.no_grad():
+                        refer_Q = self.critic1([to_tensor(state_batch), to_tensor(refaction_batch)])
+                        refer_Q = refer_Q.mean()
+                    if -policy_loss < refer_Q:
+                        supervised_loss = criterion(actor_action_batch, to_tensor(refaction_batch))
+                        supervised_loss = supervised_loss.mean()
+                        # policy_loss = policy_loss * min((1 - self.noise_weight), 1) + 3 * supervised_loss * max(
+                        #     self.noise_weight, 0)
+                        policy += 10 * supervised_loss * max(self.noise_weight, 0)
 
             policy_loss.backward()
             self.actor_optim.step()

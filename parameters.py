@@ -51,7 +51,6 @@ def get_args():
     parser.add_argument('--ou_sigma', default=0.2, type=float, help='noise sigma')
     parser.add_argument('--ou_mu', default=0.0, type=float, help='noise mu')
 
-    # parser.add_argument('--max_episode_length', default=1000, type=int, help='')
     parser.add_argument('--max_episode_length', default=2000, type=int, help='')
 
     parser.add_argument('--validate_episodes', default=5, type=int, help='how many episode to perform during validate experiment')
@@ -60,14 +59,13 @@ def get_args():
     parser.add_argument('--init_w', default=0.003, type=float, help='')
 
     parser.add_argument('--train_iter', default=1000000, type=int, help='train iters each timestep')
-    # parser.add_argument('--train_iter', default=5000, type=int, help='train iters each timestep')
 
     parser.add_argument('--epsilon', default=800000, type=int, help='linear decay of exploration policy')
     # parser.add_argument('--l2norm', default=0.01, type=float, help='l2 weight decay')
     # parser.add_argument('--cuda', dest='cuda', TD3+TD3+TD3+ActionNoise='store_true')
     parser.add_argument('--num_interm', default=100, type=int, help='how many intermidate saves')
     parser.add_argument('--policy_delay', default=2, type=int)
-    parser.add_argument('--noise_decay', default=600000, type=int)
+    parser.add_argument('--noise_decay', default=1000000, type=int)
 
     args = parser.parse_args()
     return args
